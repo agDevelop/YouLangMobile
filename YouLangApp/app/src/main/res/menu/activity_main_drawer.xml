@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Courses" />
+        <item
+            android:id="@+id/nav_theory"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Theory" />
+        <item
+            android:id="@+id/nav_tests"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="Tests" />
+        <item
+            android:id="@+id/nav_vocabulary"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Vocabulary" />
+        <item
+            android:id="@+id/nav_uservocabulary"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="My Vocabulary" />
+    </group>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@id/wordRelativeLayout"
+        android:background="@android:color/darker_gray" />
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

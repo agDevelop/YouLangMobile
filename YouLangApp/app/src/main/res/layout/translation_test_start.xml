@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/translationStartLayout">
+
+    <Button
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#eb5256"
+        android:textColor="#fff"
+        android:id="@+id/startTestButton" />
+
+    <TextView
+        android:text="Translation Test"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:id="@+id/textView4"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:text="Test your knowledge of Russian words!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="17sp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
